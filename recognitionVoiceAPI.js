@@ -22,14 +22,4 @@ function displayKickOnScreen(kick){
     `
 }
 
-function gameOver(kick){
-    if(kick == 'game over'){
-        document.body.innerHTML = `
-            <h1>Game over</h1>
-            <h3>O jogo terminou</h3>
-            <button id="btn-play-again" class="btn-attempt">Jogar novamente</button>
-        `
-    }
-}
-
 btnAttempt.addEventListener('click', () => recognition.start())

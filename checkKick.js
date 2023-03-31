@@ -18,11 +18,21 @@ function checkKickIsValid(kick){
         `
     } else if(number > secretNumber){
         elementKick.innerHTML += `
-        <div class="tips">O número secreto é menor <i class="fa-light fa-arrow-down"></i></div>
+        <div class="tips">O número secreto é menor <i class="fa-solid fa-arrow-down"></i></div>
         `
     } else {
         elementKick.innerHTML += `
         <div class="tips">O número secreto é maior <i class="fa-solid fa-arrow-up"></i></div>
+        `
+    }
+}
+
+function gameOver(kick){
+    if(kick == 'game over'){
+        document.body.innerHTML = `
+            <h1>Game over!!</h1>
+            <h3>Clique no botão para jogar novamente</h3>
+            <button id="btn-play-again" class="btn-attempt">Jogar novamente</button>
         `
     }
 }
