@@ -8,6 +8,12 @@
 
 body {
     background-color: var(--bg-color);
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 .content {
@@ -20,11 +26,15 @@ body {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
 }
 
 h3 {
-    font-size: 3em;
+    font-size: 2em;
     margin-top: 20px;
 }
 
@@ -40,9 +50,24 @@ h3 {
 }
 
 .box {
-    margin-top: 10px;
+    margin: 10px 0;
     padding: 10px;
     font-size: 4em;
     display: inline-block;
     border: 2px solid #9ADCFF;
+}
+
+.tips {
+    font-size: 1.5em;
+}
+
+.btn-attempt {
+    border: 0;
+    font-size: 0.9em;
+    margin-top: 30px;
+    background-color: #B4E4FF;
+    color: var(--primary-color);
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
 }

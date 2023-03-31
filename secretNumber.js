@@ -11,6 +11,7 @@ function randomNumberGenerate(){
 }
 
 const secretNumber = randomNumberGenerate()
+console.log(secretNumber)
 
 
 
