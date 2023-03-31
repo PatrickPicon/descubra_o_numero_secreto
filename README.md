@@ -20,4 +20,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O objetivo do jogo é descobrir o número secreto, é só clicar no botão "Dar palpite" e dizer um número de 1 a 1000, caso erre vão haver dicas dizendo se o número é maior ou menor que seu palpite, divirtam-se!
+O objetivo do jogo é descobrir o número secreto, é só clicar no botão "Dar palpite" e dizer um número de 1 a 1000, caso erre vão haver dicas dizendo se o número é maior ou menor que seu palpite, divirtam-se! Se quiser finalizar o jogo antecipadamente, é só dizer "Game over" e o jogo será encerrado.
