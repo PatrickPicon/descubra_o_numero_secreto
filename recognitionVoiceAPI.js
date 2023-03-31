@@ -10,6 +10,7 @@ recognition.addEventListener('result', onSpeak)
 function onSpeak(e){
     const kick = e.results[0][0].transcript
     displayKickOnScreen(kick)
+    checkKickIsValid(kick)
 }
 
 function displayKickOnScreen(kick){
